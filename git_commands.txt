@@ -9,7 +9,13 @@ git remote remove origin              #Remove oregin
  it checkout -b mamatha               #to create branch
 git checkout main                     # to shift Branch 
 git branch                            # to check which branch we are working now
-
-
 git remote -v
 git remote add origin https://github.com/Mamatha214/Autozone-dashboard.git
+
+
+Steps to Merge mamatha into main
+git checkout main
+git pull origin main
+git merge mamatha
+git push origin main
+
