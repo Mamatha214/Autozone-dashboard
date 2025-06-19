@@ -19,3 +19,23 @@ git pull origin main
 git merge mamatha
 git push origin main
 
+
+#Clone the Repo on Kranthi’s Laptop
+->git clone https://github.com/Mamatha214/Autozone-dashboard.git
+cd Autozone-dashboard
+
+#Set Up Git on Kranthi’s Laptop
+=>git config --global user.name "Kranthi"
+
+# Create Their Own Branch (Optional)
+git checkout -b kranthi-feature
+
+
+#You (Mamatha) Want to Work on Your GitHub Account from Kranthi’s Laptop
+->git config --global user.name "Mamatha"
+
+# You & Kranthi Want to Use Separate GitHub Accounts on the Same Laptop
+->git config user.name "Mamatha"
+git config user.email "your-email@example.com"
+
+
