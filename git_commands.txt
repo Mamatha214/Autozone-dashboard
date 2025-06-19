@@ -5,7 +5,10 @@ git commit -m "Initial commit"        # Commit with a message
 git branch -M main                    # Rename to main (if needed)
 git remote add origin <repo-url>      # Add your remote repo (only once)
 git push -u origin main               # Push to remote main branch
-git remote remove origin               #Remove oregin
+git remote remove origin              #Remove oregin
+ it checkout -b mamatha               #to create branch
+git checkout main                     # to shift Branch 
+git branch                            # to check which branch we are working now
 
 
 git remote -v
