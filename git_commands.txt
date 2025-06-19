@@ -1,0 +1,12 @@
+git init                               # Initialize git (if not already done)
+git pull --rebase origin main
+git add --all                          # Stage all files
+git commit -m "Initial commit"        # Commit with a message
+git branch -M main                    # Rename to main (if needed)
+git remote add origin <repo-url>      # Add your remote repo (only once)
+git push -u origin main               # Push to remote main branch
+git remote remove origin               #Remove oregin
+
+
+git remote -v
+git remote add origin https://github.com/Mamatha214/Autozone-dashboard.git
