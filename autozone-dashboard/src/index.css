@@ -65,7 +65,7 @@ button:focus-visible {
   button {
     background-color:  #131315;
      color:#ebe9f1;
-<<<<<<< HEAD
+
   }
   nav {
      background-color: #131315;
@@ -98,8 +98,7 @@ button:focus-visible {
  .nav-icons svg {
     width: 20px;
     height: 20px;
-=======
->>>>>>> mamatha
+
   }
   nav {
      background-color: #131315;
@@ -117,8 +116,7 @@ button:focus-visible {
   padding-left: 1rem;  /* px-4 */
   padding-right: 1rem;
 }
-<<<<<<< HEAD
-=======
+
   nav img {
     height: 40px;
     width: auto;
@@ -167,5 +165,5 @@ button:focus-visible {
   }
 
 }
->>>>>>> mamatha
+
 

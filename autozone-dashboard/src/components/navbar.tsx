@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { FiMenu, FiX, FiStar, FiMapPin, FiUser } from "react-icons/fi";
 import Logo from "../images/Logo.png";
-<<<<<<< HEAD
-=======
+
 import Sidebar from "./sidebar";
->>>>>>> mamatha
+
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -54,7 +53,7 @@ const Navbar: React.FC = () => {
         } transition-transform duration-300 ease-in-out z-50 md:hidden`}
       >
         <div className="p-6 space-y-6">
-<<<<<<< HEAD
+
           <div className="text-lg font-semibold">Menu</div>
           <div className="flex items-center gap-2">
             <FiStar />
@@ -68,11 +67,11 @@ const Navbar: React.FC = () => {
             <FiUser />
             <span>Login</span>
           </div>
-=======
+
           <Sidebar isOpen={menuOpen} onClose={toggleMenu} />
           {/* Add links or other content here */}
           {/* Links */}
->>>>>>> mamatha
+
         </div>
       </div>
 
