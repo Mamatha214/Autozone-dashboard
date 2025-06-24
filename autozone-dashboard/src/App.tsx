@@ -3,6 +3,11 @@ import Navbar from './components/navbar';
 import Home from './components/home';
 import Admin from './pages/admin';
 import User from './pages/user';
+import Buy from './pages/buy';
+import Brand from './pages/brand';
+import Model from './pages/model';
+import Service from './pages/service';
+import Search from './pages/search';  
 
 function App() {
   return (
@@ -13,6 +18,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/user" element={<User />} />
+          <Route path="/buy" element={<Buy />} />
+          <Route path="/brand" element={<Brand />} />
+          <Route path="/model" element={<Model />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/search" element={<Search />} />
+      
         </Routes>
       </div>
     </>
