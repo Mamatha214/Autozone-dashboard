@@ -8,6 +8,8 @@ import Brand from './pages/brand';
 import Model from './pages/model';
 import Service from './pages/service';
 import Search from './pages/search';  
+import Login from './pages/login';
+import Register from './pages/register';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/model" element={<Model />} />
           <Route path="/service" element={<Service />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/login" element={<Login onClose={()=>{}}/>} />
+          <Route path='/register' element={<Register />} />
       
         </Routes>
       </div>
