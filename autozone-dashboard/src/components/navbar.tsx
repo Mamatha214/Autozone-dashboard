@@ -4,7 +4,6 @@ import Logo from "../images/Logo.png";
 
 import Sidebar from "./sidebar";
 
-
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -39,7 +38,10 @@ const Navbar: React.FC = () => {
               <div className="nav-icons">
                 <FiStar size={10} />
                 <FiMapPin size={10} />
-                <FiUser size={10}/>Login 
+                <FiUser size={10}/>
+                 <Link to="/login" className="bg-white text-black px-4 py-1 rounded hover:bg-gray-200">
+                    Login
+                  </Link>
               </div>
             </div>
           </div>

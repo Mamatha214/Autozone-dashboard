@@ -1,26 +1,24 @@
 git init                               # Initialize git (if not already done)
-git pull --rebase origin main
+git pull --rebase origin main          # this will avoid merge conflicts 
 git add --all                          # Stage all files
 git commit -m "Initial commit"        # Commit with a message
 git branch -M main                    # Rename to main (if needed)
-git remote add origin <repo-url>      # Add your remote repo (only once)
+git remote add origin <repo-URL>      # Add your remote repo (only once)
 git push -u origin main               # Push to remote main branch
-git remote remove origin              #Remove oregin
- it checkout -b mamatha               #to create branch
-git checkout main                     # to shift Branch 
-git branch                            # to check which branch we are working now
+git remote remove origin               #Remove origin
+
+
 git remote -v
 git remote add origin https://github.com/Mamatha214/Autozone-dashboard.git
-
 ----------------------------------------------
-Steps to Merge mamatha into main
+Steps to Merge Mamatha into main
 git checkout main
 git pull origin main
-git merge mamatha
+git merge Mamatha
 git push origin main
 ------------------------------------
 
-clone the sourse repo
+clone the source repo
 
 git clone https://github.com/Mamatha214/Autozone-dashboard.git
 
@@ -28,22 +26,22 @@ git clone https://github.com/Mamatha214/Autozone-dashboard.git
 
 
 
-#Clone the Repo on Kranthi’s Laptop
+#Clone the Repo on Kranti Laptop
 ->git clone https://github.com/Mamatha214/Autozone-dashboard.git
-cd Autozone-dashboard
+cd AutoZone-dashboard
 
-#Set Up Git on Kranthi’s Laptop
-=>git config --global user.name "Kranthi"
+#Set Up Git on Kranti Laptop
+=>git config --global user.name "Kranti"
 
 # Create Their Own Branch (Optional)
-git checkout -b kranthi-feature
+git checkout -b Kranti-feature
 
 
-#You (Mamatha) Want to Work on Your GitHub Account from Kranthi’s Laptop
+#You (Mamatha) Want to Work on Your GitHub Account from Kranti’s Laptop
 ->git config --global user.name "Mamatha"
 
-# You & Kranthi Want to Use Separate GitHub Accounts on the Same Laptop
+# You & Kranti Want to Use Separate GitHub Accounts on the Same Laptop
 ->git config user.name "Mamatha"
-git config user.email "your-email@example.com"
+git config user. Email "your-email@example.com"
 
 
