@@ -3,6 +3,7 @@ import { FiMenu, FiX, FiStar, FiMapPin, FiUser } from "react-icons/fi";
 import Logo from "../images/Logo.png";
 
 import Sidebar from "./sidebar";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
